@@ -1,0 +1,8 @@
+include common.in
+#initial-state totalE.$VAR
+kpoint-folding 12 12 2
+
+electronic-scf nIterations 200 
+converge-empty-states yes
+dump-name totalE.$VAR
+dump End State BandEigs Gvectors Fillings EigStats Vscloc ElecDensity Momenta

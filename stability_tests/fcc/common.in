@@ -1,0 +1,9 @@
+include latMin.lattice
+#include latMin.ionpos
+#coords-type Cartesian
+
+ion H 0.00 0.00 0.00 0
+ion-species SG15/$ID_ONCV_PBE.upf
+elec-cutoff 30
+elec-initial-charge -1
+elec-n-bands 400

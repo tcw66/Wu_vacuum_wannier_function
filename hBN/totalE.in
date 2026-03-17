@@ -1,0 +1,7 @@
+include common.in
+#fix-electron-potential totalE.$VAR
+kpoint-folding 28 28 1
+
+electronic-minimize nIterations 200 
+dump-name totalE.$VAR
+dump End State BandEigs Fillings EigStats #Vscloc ElecDensity
